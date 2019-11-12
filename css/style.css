@@ -65,9 +65,14 @@
     color: honeydew;
     padding-left: 5px;
 }
-.footer-cambiado div div .social {
+.footer-cambiado div div h5.social{
     padding: 0;
-    display:inline-block;
+    display:block;
+}
+.footer-cambiado div div .social{
+    padding: 0;
+    color: white;
+    display:inline;
 }
 @media (max-width: 470.98px) { 
     .container{
