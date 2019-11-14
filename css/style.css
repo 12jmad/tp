@@ -2,7 +2,19 @@
     box-sizing: border-box;
 }
 .usuario{
+    background-color: yellow;
+    box-shadow:0px 6px 30px 10px dimgray inset;
+    transform: rotate(7deg);
 }
+.menu-left ul{
+    box-shadow: 0px 6px 10px dimgray;
+    transition: all .6s;
+}
+.menu-left ul:hover{
+    position: relative;
+    bottom:5px;
+}
+
 .menu-left li{
     padding: 0;
 }
