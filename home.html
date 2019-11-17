@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/lista-productos.css">
+
+    <title>E-commerce</title>
+</head>
+<body class="main-perfil">
+    <!--Comienza el header-->
+    <header class="container-fluir fixed-top">
+            <!--Comienza el nav-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark  barra">
+            <!--Comienza el nombre de la empresa-->
+                <a class="navbar-brand" href="#">
+                    <img src="img/e-com1.png" width="30" height="30" class="d-inline-block align-top logo" alt="">
+                    <span>E-commerce</span>
+                </a>
+            <!--Fin el nombre de la empresa-->
+            <!--Comienza el buscador-->
+                <form class=" d-md-inline-block form-inline mx-auto  my-2 my-md-0">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Buscar producto...." aria-label="Search" aria-describedby="basic-addon2">
+                        <div class="input-group-append">
+                        <button class="btn btn-primary" type="button">
+                            <img src="img/lupa.png" width="20" height="20" class="d-inline-block align-top" alt="">
+                        </button>
+                        </div>
+                    </div>
+                    </form>
+            <!--fin el buscador-->
+            <!--Comienza del menu complimido-->
+                    <!--Comienza el icono de  complimido-->
+                <button class="navbar-toggler col-12 col-sm-3" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span>Menu</span>
+                    <span class="navbar-toggler-icon"></span>
+                    
+                </button>
+                <!--fin el icono de  complimido-->
+                <!--Comienza el menu descomplimido-->
+                <div class="collapse navbar-collapse " id="navbarNav">
+                    <ul class="navbar-nav ml-md-auto">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                            <!--Comienza el categoria-->
+                            <div class="dropdown">
+                                    <a class="nav-link dropdown-toggle " href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                      Celulares
+                                    </a>
+                                    <!--Comienza el menu desplegable de categoria-->
+                                    <div class="dropdown-menu bg-white py-0 mt-2 sub-menu-categoria" aria-labelledby="dropdownMenuLink">
+                                      <ul class="px-0">
+                                          <a class=" ml-md-auto text-decoration-none d-block  py-0 px-0 py-0 px-0 text-reset" href="#"><li class="py-2 px-2 dropdown-item  ">Motorola</li></a>
+                                          <a class=" ml-md-auto text-decoration-none d-block  py-0 px-0 text-reset" href="#"> <li class="py-2 px-2 dropdown-item  ">Samsung</li> </a>
+                                      <a class=" ml-md-auto text-decoration-none d-block  py-0 px-0 text-reset" href="#"><li class="py-2 px-2 dropdown-item   ">LG</li></a>
+                                      <a class=" ml-md-auto text-decoration-none d-block  py-0 px-0 text-reset" href="#"><li class="py-2 px-2 dropdown-item  ">Apple</li></a>
+                                      <a class=" ml-md-auto text-decoration-none d-block  py-0 px-0 text-reset" href="#"><li class="py-2 px-2 dropdown-item  ">Nokia</li></a>
+                                      </ul>
+                                      
+                                      
+                                    </div>
+                                    <!--fin el menu desplegable de categoria-->
+                                  </div>
+                            <!--Fin categoria-->
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-primary" href="login.html">ingresar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="registro.html">registrarse</a>
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link" href="faq.html">ayuda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                        <span>carrito</span>
+                        <img src="img/car.png" width="20" height="20" class="d-inline-block align-top " alt="">
+                        </a>
+                    </li>
+                    </ul>
+                </div>
+                <!--fin el menu descomplimido-->
+                <!--Comienza del menu complimido-->
+                </nav>
+    </header>
+
+    <main>
+        <div class="inner-main">
+             home
+        </div>
+    </main>
+    
+
+
+
+      <!-- MainBody End ============================= -->
+  <!-- Footer ================================================================== -->
+  <footer>
+      <div class="container-fluid bg-dark px-auto py-4 footer-cambiado ">
+        <div class="row d-flex justify-content-between">
+          <div class="col-12 col-sm-4 col-md-4 col-lg-4">
+            <h5>ACCOUNT</h5>
+            <a href="login.html" class="">YOUR ACCOUNT</a>
+            <a href="login.html">PERSONAL INFORMATION</a>
+            <a href="login.html">ADDRESSES</a>
+            <a href="login.html">DISCOUNT</a>
+            <a href="login.html">ORDER HISTORY</a>
+          </div>
+          <div class="col-12 col-sm-4 col-md-4 col-lg-4">
+            <h5>INFORMATION</h5>
+            <a href="contact.html">CONTACT</a>
+            <a href="register.html">REGISTRATION</a>
+            <a href="legal_notice.html">LEGAL NOTICE</a>
+            <a href="tac.html">TERMS AND CONDITIONS</a>
+            <a href="faq.html">FAQ</a>
+          </div>
+          <div id="socialMedia " class="col-12 col-sm-4 col-md-4 col-lg-4 pull-right social text-center">
+            <h5 class="social">SOCIAL MEDIA </h5>
+            <a href="#" class="social"><img width="60" height="60" src="img/facebook.png" title="facebook" alt="facebook"/></a>
+            <a href="#" class="social"><img width="60" height="60" src="img/twitter.png" title="twitter" alt="twitter"/></a>
+            <a href="#" class="social"><img width="60" height="60" src="img/youtube.png" title="youtube" alt="youtube"/></a>
+          </div>
+        </div>
+        <p class="pull-right text-center my-2 py-2">Copyright &copy; Your Website 2019</p>
+      </div><!-- Container End -->
+    </footer>
+    <!-- Footer End================================================================== -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
