@@ -1,5 +1,10 @@
 *{
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Roboto', sans-serif;
 }
 
 body{
@@ -55,11 +60,20 @@ main #mainContainer #seccionInfoProducto{
 
 }
 
+.footer-cambiado{
+    background-color: #343a40;
+    text-decoration: none;
+    color: honeydew;
+}
+
 .footer-cambiado div div a {
     display:block;
     text-decoration: none;
     color: honeydew;
     padding-left: 5px;
+}
+.footer-cambiado div div a:hover,.footer-cambiado div div a:focus{
+    color: blue;
 }
 .footer-cambiado div div h5.social{
     padding: 0;
