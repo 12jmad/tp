@@ -15,11 +15,11 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
-.img-perfil div {
+.img-perfil .contenedor-perfil {
     border-radius: 100%;
     height: inherit;
 }
-.img-perfil div img {
+.img-perfil .contenedor-perfil img {
     height: inherit;
     width: 100%;
     border-radius: 100%;
@@ -195,16 +195,33 @@ body{
 }
 .footer-cambiado div div .social{
     padding: 0;
-    color: white;
     display:inline;
 }
-.modal-content{
-    border-radius: 25px !important;
-}
+
 @media (max-width: 470.98px) { 
     .container{
         
         margin-top: 16vh;
+    }
+    .resumen .factura{
+        overflow: scroll;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        height:200px;
+        
+    }
+    .resumen .factura div{
+        padding: 5px auto;
+        border: #343a40 solid 1px;
+    }
+    .resumen .factura div div{
+        padding: 6px;
+        border-bottom: solid black 1px;
+    }
+    .resumen .factura div div p{
+        margin: 0;
     }
     .footer-cambiado div div{
         text-align: center;
@@ -235,26 +252,7 @@ body{
         border-left:none;
         border-right:none;
     }
-    .resumen .factura{
-        overflow: scroll;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        flex-wrap: wrap;
-        height:200px;
-        
-    }
-    .resumen .factura div{
-        padding: 5px auto;
-        border: #343a40 solid 1px;
-    }
-    .resumen .factura div div{
-        padding: 6px;
-        border-bottom: solid black 1px;
-    }
-    .resumen .factura div div p{
-        margin: 0;
-    }
+
     
 }
 @media (max-width: 457.8px) { 
@@ -297,36 +295,6 @@ body{
         
         margin-top: 120px;
     }
-    .footer-cambiado div div{
-        text-align: center;
-    }
-    .footer-cambiado div div h5{
-        display: block;
-        border-bottom:white solid 1px;
-        padding:.75rem .25rem;
-    }
-    .footer-cambiado div div h5.social{
-        display: block;
-        border-bottom: none;
-        padding:.75rem .25rem;
-    }
-    .footer-cambiado div div a{
-        display: block;
-        padding:.20rem .5rem;
-        border-bottom: solid white 1px;
-    }
-    .footer-cambiado div div a.social{
-        display: inline;
-        border-bottom: none;
-    }
-    .footer-cambiado div div a:hover{
-        border-left: solid white 2px;
-        border-right: solid white 2px;
-    }
-    .footer-cambiado div div a.social:hover{
-        border-left:none;
-        border-right: none;
-    }
     .resumen .factura div{
         border: #343a40 solid 1px;
     }
@@ -355,6 +323,39 @@ body{
     .resumen .factura div div:last-child{
         height: 70px;
     }
+    .footer-cambiado div div{
+        text-align: center;
+    }
+    .footer-cambiado div div h5{
+        display: block;
+        border-bottom:white solid 1px;
+        padding:.75rem .25rem;
+    }
+    .footer-cambiado div div h5.social{
+        display: block;
+        border-bottom: none;
+        padding:.75rem .25rem;
+    }
+    .footer-cambiado div div a{
+        display: block;
+        padding:.20rem .5rem;
+        border-bottom: solid white 1px;
+    }
+    .footer-cambiado div div a.social{
+        display: inline-block;
+        width: 60px;
+        height: 60px;
+        border-bottom: none;
+    }
+    .footer-cambiado div div a:hover{
+        border-left: solid white 2px;
+        border-right: solid white 2px;
+    }
+    .footer-cambiado div div a.social:hover{
+        border-left:none;
+        border-right: none;
+    }
+    
 }
 
 
